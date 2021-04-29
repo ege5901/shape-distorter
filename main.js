@@ -8,12 +8,12 @@ var clearButton
 
 function setup() {    
   createCanvas(600, 600);
-  generate = createButton('oluştur');
+  generate = createButton('create');
   generate.mousePressed(()=>{
     createNewShapeAndDraw()
   })
 
-  clearButton = createButton("temizle")
+  clearButton = createButton("clean")
   clearButton.mousePressed(()=>{
     background(220)
     dots=[]
